@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherstyles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="city-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-btn" />
+        </form>
+      </header>
+      <div class="weather-container">
+        <h1 id="current-city">Indianapolis</h1>
+        <div class="date-container">
+          <p>
+            <span id="time-update">Friday 12:00</span> partly cloudy
+            <br />
+            Humidity: <strong class="main-weather">55% </strong>, Wind:
+            <strong class="main-weather"> 22mph </strong>
+          </p>
+        </div>
+        <span class="main-temp">
+          <span class="sunshine">☀️</span>
+          <span id="city-current-temp">67</span>
+          <span><sup id="little-celcius">°F</sup></span>
+      </div>
+      <ul>
+        <li>
+          Sat 🌧️ <br />
+          <strong>51°C</strong> / 72°C
+        </li>
+        <li>
+          Sun 🌧️ <br />
+          <strong>47°C</strong> / 57°C
+        </li>
+        <li>
+          Mon ⛈️ <br />
+          <strong>45°C</strong> / 55°C
+        </li>
+        <li>
+          Tues ☁️ <br />
+          <strong>45°C</strong> / 63°C
+        </li>
+        <li>
+          Weds ⛅️ <br />
+          <strong>49°C </strong>/ 65°C
+        </li>
+        <li>
+          Thurs 🌤️ <br />
+          <strong>45°C</strong> / 59°C
+        </li>
+      </ul>
+      <footer>
+        This project was coded by <a href="">JohnNesha Graves</a> and is on
+        <a href="">GitHub</a> and hosted on <a href="">Netlify</a>
+      </footer>
+    </div>
+  </body>
+  <script src="./weatherapp.js"></script>
+</html>
