@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "weatherapp.html"
+to = "index.html"
 status = 200
