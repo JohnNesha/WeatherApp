@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "weatherapp.html"
+status = 200
